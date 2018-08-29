@@ -2,7 +2,7 @@ const charactersAPI = new APIHandler("http://localhost:8000")
 
 $(document).ready( () => {
   document.getElementById('fetch-all').onclick = function(){
-
+console.log('fetching some shit')
   }
   
   document.getElementById('fetch-one').onclick = function(){
