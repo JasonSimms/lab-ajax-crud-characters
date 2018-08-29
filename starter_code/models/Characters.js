@@ -1,4 +1,4 @@
-const foodSchema = new Schema({
+const charSchema = new Schema({
   id: Number,
   name: String,
   occupation: String,
@@ -8,3 +8,5 @@ const foodSchema = new Schema({
     default: cartoon
   }
 });
+
+module.exports = mongoose.model('Food', foodSchema)
